@@ -1,0 +1,82 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+/* rettangolo nero trasparente con padding */
+.contenitore{
+  width: 70%;
+  background-color: rgba(0,0,0,0.5);
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 25px;
+  padding: 100px;
+}
+
+.logo{
+  width: 28%;
+}
+
+.title{
+  font-size: 30px;
+  font-weight: 600;
+  color: #00DD00;
+  margin: 0px;
+}
+
+/* font titolo e monopattino */
+.title, .Monopattino {
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* colore e dimensioni menù */
+nav{
+  background-color: #00DD00;
+  border: 10px solid #00DD00;
+}
+
+.bottoni{
+  text-align: center;
+}
+
+/* testo monopattino */
+.Monopattino{
+  color: white;
+  line-height: 20px;
+  margin-top: 20px;
+}
+
+.Nome-Monopattino{
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.posizione, .Carica{
+  font-size: 14px;
+}
+
+/* dimensioni rettangoli carica */
+.carica-alta, .carica-media, .carica-bassa{
+  height: 20px;
+  border-radius: 3pt;
+}
+
+/* colori e lunghezza rettangoli */
+.carica-media{
+  width: 30%;
+  background-color: #F5B453;
+}
+
+.carica-alta{
+  width: 60%;
+  background-color: #1EC31E;
+}
+
+.carica-bassa{
+  width: 10%;
+  background-color: #BE4141;
+}
